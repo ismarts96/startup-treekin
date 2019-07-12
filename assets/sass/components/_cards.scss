@@ -1,0 +1,37 @@
+// Component: Cards
+
+.card{
+    border: 1px solid;
+    background-color: $white;
+    height: 550px;
+    text-align: left;
+    align-items: center;
+    padding: 10%;    
+}
+
+.card h4{
+    font-family: $open-sans;
+    font-weight: $regular;
+    margin: 5% 0 5% 0;
+}
+
+.card h3{
+    margin: 5% 0 5% 0;
+}
+
+.card__list{
+    height: 45%;
+    margin: 7% 0 7% 0;
+    padding-left: 15px;
+    font-family: $open-sans;
+    font-weight: $regular;
+    font-size: $medium;
+    li{
+        margin: 5% 0 5% 0;
+    }
+
+}
+
+.card__button{
+    margin-top: 10%;
+}

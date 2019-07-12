@@ -1,0 +1,48 @@
+/* Components: button */
+
+//Base
+.button{
+    padding: 1em 2em;
+    cursor: pointer;
+    font-family: $open-sans;
+    font-size: 16px;
+    font-weight: $bold;
+}
+
+// Button Scheme
+
+.button_primary{
+    border: none;
+    color: $raising-black;
+    background-color: $white;
+
+    &:hover{
+        background-color: $platinum;
+    }
+
+    &:focus{
+        background-color: $gray;
+    }
+}
+
+.button_secondary{
+    border: none;
+    color: $white;
+    background-color: $ball-blue;
+
+    &:hover{
+        background-color: $middle-blue;
+    }
+
+    &:focus{
+        background-color: $gray;
+    }
+}
+
+.button--regular{
+    width: 12em;
+}
+
+.button--large{
+    width: 100%;
+}

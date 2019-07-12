@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+}
+
+// Hero Styles
+
+.bg-hero{
+    width: 100%;
+}
+
+.hero__container{
+    position: absolute;
+    top: 12em;
+    left: 12em; 
+}
+
+//Feaures Styles
+
+.features{
+    text-align: center;
+}
+.features__items{
+    margin: 6em 0 6em 0;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.features__graph, .features__text{
+    margin: 0 4em 0 4em;
+}
+
+
+// Prices Styles
+.bg-prices{
+  width: 1000px;
+  height: 100%;
+  background-image: url(../img/bg-price.svg);
+}
+
+
+
+.prices__title{
+    color: $white;
+    margin-bottom: 1em;
+}
+
+.prices__container{
+    float: left;
+    top: -50em;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    margin: auto;
+}
+
