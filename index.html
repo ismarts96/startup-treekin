@@ -18,24 +18,23 @@
 </head>
 
 <body>
-            <header class="header row">
+    <header class="header row">
 
-                    <nav class="navigation">
-                            <div class="navigation__logo">
-                                    <img src="assets/img/Logo.svg" alt="Logo">
-                                  </div>
-                        <div class="collapsible col-xs-12">
-                            <input type="checkbox" id="menu">
-                            <label for="menu"><i class="fas fa-bars"></i></label>
-                            <div class="navigation__container">
-                                <ul class="navigation__list">
-                                    <li class="navigation__item"> <a href="#">Acerca de</a></li>
-                                    <li class="navigation__item"> <a href="#">Características</a></li>
-                                    <li class="navigation__item"> <a href="#">Precios</a></li>
-                                </ul>
-                                <div class="navigation__buttons">
-                                        <button type="button" class="button button_primary button--regular">Iniciar Sesión</button>
-                                        <button type="button" class="button button_secondary button--regular">Registrate</button>
+        <nav class="navigation">
+            <div class="navigation__logo">
+                <img src="assets/img/Logo.svg" alt="Logo"></div>
+                <div class="collapsible col-xs-12">
+                    <input type="checkbox" id="menu">
+                    <label for="menu"><i class="fas fa-bars"></i></label>
+                    <div class="navigation__container">
+                        <ul class="navigation__list">
+                            <li class="navigation__item"> <a href="#">Acerca de</a></li>
+                            <li class="navigation__item"> <a href="#">Características</a></li>
+                            <li class="navigation__item"> <a href="#">Precios</a></li>
+                        </ul>
+                    <div class="navigation__buttons">
+                        <button type="button" class="button button_primary button--regular">Iniciar Sesión</button>
+                        <button type="button" class="button button_secondary button--regular">Registrate</button>
                                 </div>
                             </div>
                         </div>
@@ -44,23 +43,27 @@
             
                 <main class="main">
                     <section class="hero">
-                            <object type="image/svg+xml" data="./assets/img/bg-hero.svg" class="bg-hero "></object>
+                        <object type="image/svg+xml" data="./assets/img/bg-hero.svg" class="bg-hero"></object>
                         <div class="hero__container container">
                             <div class="row">
-                                    <div class="hero__text col-md-5">
-                                            <h1>Haz Trekking sin parar</h1>
-                                            <p>Con Trekk-in te despreocuparás de la estimación de tu viaje,
-                                            ya que con unos simples pasos podrás definir la mejor ruta a tomar
-                                            con tus compañeros de expedición.</p>
-                                    </div>
+                                <div class="hero__text col-xs-11 col-md-5">
+                                                <h1>Haz Trekking sin parar</h1>
+                                                <p>Con Trekk-in te despreocuparás de la estimación de tu viaje,
+                                                ya que con unos simples pasos podrás definir la mejor ruta a tomar
+                                                con tus compañeros de expedición.</p>
+                                </div>
                             </div>
                         </div>
                     </section>
             
-                    <section class="features container">
+                    <section class="features">
                         <h2>Características</h2>
+                        <div class="container">
                         <div class="features__items row">
+                                
                                 <object type="image/svg+xml" data="./assets/img/bar-graph.svg" class="features__graph col-md-4"></object>
+                        
+                               
                                 <div class="features__text col-md-4">
                                     <h3>Estadísticas de tu progreso</h3>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -70,10 +73,10 @@
                                         Expedita, nihil omnis.</p>
                                     </div>
                         </div>
+                        </div>
                     </section>
             
                     <section class="prices">
-                        <a class="bg-prices" href=""></a>
                         <object type="image/svg+xml" data="./assets/img/bg-price.svg" class="bg-prices">
                             <img src="./assets/images/bg-price.png" alt="Dibujo de una montaña">
                         </object>
@@ -81,7 +84,7 @@
                         <div class="prices__container container">
                             <h2 class="prices__title">Precios</h2>
                             <div class="prices__card row">
-                                <div class="card prices__card--1 col-xs-12 col-md-4">
+                                <div class="card col-xs-12 col-md-4">
                                     <h4>Trekk-in Free</h4>
                                     <h3>$ 0 / mes</h3>
                                     <hr>
@@ -92,7 +95,7 @@
                                     <hr>
                                     <button type="button" class="button button_secondary button--large card__button">Obtén Free</button>
                                 </div>
-                                <div class="card prices__card--2 col-xs-12 col-md-4">                                
+                                <div class="card col-xs-12 col-md-4">                                
                                     <h4>Trekk-in Free</h4>
                                     <h3>$ 3.500 / mes</h3>
                                     <hr>
@@ -107,15 +110,15 @@
                                     <button type="button" class="button button_secondary button--large card__button">Obtén Premium</button>
                                     
                                 </div>
-                        </div>
+                            </div>
                         </div>
             
                     </section>
                 </main>
             
                 <footer class="footer">
-                    <div class="footer__container container">
-                            <div class="footer__section col-md-5">
+                    <div class="footer__container">
+                            <div class="footer__section">
                                 <ul>
                                     <li>Legal</li>
                                     <li>Cookies</li>

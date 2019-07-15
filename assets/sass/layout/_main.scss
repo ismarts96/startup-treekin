@@ -5,6 +5,74 @@
 // Hero Styles
 
 .bg-hero{
+    position: relative;
+    top: 300px;
+    width: 100%;
+}
+
+.hero__container{
+    margin: 0 3em;
+    position: absolute; 
+    top: 3em;
+    justify-content: center;
+}
+
+.hero__container p{
+    font-size: $large;
+}
+
+//Feaures Styles
+
+.features{
+    text-align: center;
+}
+.features__items{
+    margin: 6em 0 6em 0;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.features__graph, .features__text{
+    margin: 0 4em 0 4em;
+}
+
+// Prices Styles
+.prices{
+    width: 100%;
+    height: 400px
+}
+.bg-prices{
+  width: 100%;
+}
+
+.prices__container{
+    position: relative;
+    top: -55em;
+    text-align: center;
+}
+
+.prices__title{
+    margin-top: 1em;
+    color: $white;
+}
+
+.prices__card{
+    margin-top: 3em;
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+
+// Hero Styles
+
+.bg-hero{
+    position: relative;
+    top: 0px;
     width: 100%;
 }
 
@@ -32,27 +100,31 @@
 
 
 // Prices Styles
-.bg-prices{
-  width: 1000px;
-  height: 100%;
-  background-image: url(../img/bg-price.svg);
+.prices{
+ height: 500px
 }
-
-
-
-.prices__title{
-    color: $white;
-    margin-bottom: 1em;
+.bg-prices{
+  width: 100%;
 }
 
 .prices__container{
-    float: left;
-    top: -50em;
+    position: relative;
+    top: -55em;
     text-align: center;
     justify-content: center;
 }
 
-.card{
-    margin: auto;
+.prices__title{
+    margin-top: 1em;
+    color: $white;
 }
 
+.prices__card{
+    z-index: 1;
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8em 0 8em;
+}
+
+}

@@ -376,19 +376,13 @@ p {
 
 .bg-hero {
   position: relative;
-  top: 300px;
   width: 100%;
+  object-fit: cover;
 }
 
 .hero__container {
-  margin: 0 3em;
   position: absolute;
-  top: 3em;
-  justify-content: center;
-}
-
-.hero__container p {
-  font-size: 20px;
+  top: 5em;
 }
 
 .features {
@@ -407,8 +401,7 @@ p {
 }
 
 .prices {
-  width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .bg-prices {
@@ -419,6 +412,7 @@ p {
   position: relative;
   top: -55em;
   text-align: center;
+  justify-content: center;
 }
 
 .prices__title {
@@ -427,13 +421,15 @@ p {
 }
 
 .prices__card {
+  z-index: 1;
   margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8em 0 8em;
 }
 
 @media only screen and (min-width: 1200px) {
   .bg-hero {
-    position: relative;
-    top: 0px;
     width: 100%;
   }
 
@@ -614,12 +610,13 @@ input:checked ~ .navigation__container {
   }
 }
 .card {
-  margin: 2em 2em 2em 0em;
+  width: 400px;
   border: 1px solid;
   background-color: #fff;
   height: 550px;
   text-align: left;
-  padding: 1em;
+  align-items: center;
+  padding: 3em;
 }
 
 .card h4 {
@@ -633,7 +630,7 @@ input:checked ~ .navigation__container {
 }
 
 .card__list {
-  height: 35%;
+  height: 45%;
   margin: 7% 0 7% 0;
   padding-left: 15px;
   font-family: "Open Sans", sans-serif;
@@ -648,41 +645,4 @@ input:checked ~ .navigation__container {
   margin-top: 10%;
 }
 
-@media only screen and (min-width: 1200px) {
-  .card {
-    border: 1px solid;
-    background-color: #fff;
-    height: 550px;
-    text-align: left;
-    align-items: center;
-    padding: 3em;
-  }
-
-  .card h4 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    margin: 5% 0 5% 0;
-  }
-
-  .card h3 {
-    margin: 5% 0 5% 0;
-  }
-
-  .card__list {
-    height: 45%;
-    margin: 7% 0 7% 0;
-    padding-left: 15px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-  }
-  .card__list li {
-    margin: 5% 0 5% 0;
-  }
-
-  .card__button {
-    margin-top: 10%;
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.scss.map */

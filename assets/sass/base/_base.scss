@@ -1,7 +1,24 @@
 /* Define el tamaño del diseño a 1280px
 */
+@media only screen and (min-width: 1200px){
   body {
   width: 100%;
   margin: 0;
-  
+  font-family: $raleway;
+  font-size: 16px;
   }
+}
+  // Keyframes
+
+@keyframes opacidad {
+  0% { opacity: 0; }
+  60% { opacity: .5; }
+  100% { opacity: 1; }
+  }
+
+.features__graph{
+  animation-name: opacidad;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+}
